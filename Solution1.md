@@ -15,7 +15,7 @@ Write a script that creates the following directory structure:
        ├── documents/
 
        └── downloads/
-
+       
 ## Code:
 
 ```
@@ -36,5 +36,7 @@ mkdir -p /home/user/downloads
 echo "Directory structure created successfully."
 ```
 
-## Output:
+The -p option is used to create the directory with parents, meaning that if the parent directory does not exist, it will be created as well.
 
+## Output:
+![Screenshot 2024-08-18 181800](https://github.com/user-attachments/assets/ea2de512-ec85-4736-92a8-df6c8d2a093d)
