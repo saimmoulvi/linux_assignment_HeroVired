@@ -1,5 +1,5 @@
 ## 4. Disk Usage Alert:  
-Write a script that takes a file as an argument and checks if the file has read, write, and execute permissions. The script should display appropriate messages for each permission.
+Write a script that checks the disk usage of the root filesystem. If the disk usage is above 80%, the script should send an email alert to the system administrator.
 
 ## Code:
 ```
